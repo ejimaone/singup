@@ -1,0 +1,75 @@
+.formContainer {
+  margin-top: 20px;
+}
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 96px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  border-radius: 3px;
+}
+
+.fa-google {
+  background-color: rgb(215, 27, 27);
+  color: white;
+  border-radius: 5px;
+  border-radius: 3px;
+}
+.socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: -120px;
+}
+.fa-user-alt {
+  color: rgb(156, 86, 86);
+  border: solid 1px black;
+}
+.fav-icon {
+  margin-top: 20px;
+  font-size: 20px !important;
+  width: auto !important;
+  padding: 13px 15px !important;
+}
+.fa-envelope {
+  color: rgb(156, 86, 86);
+  border: solid 1px black;
+}
+.fas {
+  color: rgb(156, 86, 86);
+  border: solid 1px black;
+}
+.dataContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inpData {
+  font-size: 20px;
+  height: 44px;
+  margin-top: 20px;
+  width: 213px;
+}
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 50% auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

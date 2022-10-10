@@ -1,0 +1,25 @@
+// function signInHandler() {
+//     let signInDetails = JSON.parse(localStorage.getItem("details"));
+//     if (localStorage.getItem("details")) {
+//       signInDetails.find(function (individualData, i) {
+//         if (userName === individualData.username) {
+//           if (userEmail === individualData.pass) {
+//             setUserFound(true);
+
+//             console.log(i);
+//             console.log(userFound);
+//             console.log("Successful login");
+//             signInDetails[i] = {
+//               ...individualData,
+//               token: tokenGenerator(),
+//             };
+//             console.log(signInDetails);
+//           } else alert("username or password is wrong");
+//         }
+//         if (individualData.username !== userName) {
+//           setUserFound(false);
+//           alert("username or password is wrong");
+//         }
+//       });
+//     }
+//   }
