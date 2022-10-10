@@ -62,7 +62,7 @@ function LoginForm(props) {
           if (userEmail === individualData.pass) {
             setSuccess(true);
 
-            props.liftSucces(true);
+            props.liftSucces(success);
 
             signInDetails[i] = {
               ...individualData,
